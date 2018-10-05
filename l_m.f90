@@ -8,7 +8,7 @@ real(8) :: da, a(0:n), amin, amax, x(0:n,0:n)
 open(11,file="result-l_m.dat",status="replace")
 
 amin = 0.0d0
-amax = 4.0d0
+amax = 3.0d0
 da = (amax-amin)/dble(n)
 x(0:n,0) = 0.6d0
 
